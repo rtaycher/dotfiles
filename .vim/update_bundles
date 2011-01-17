@@ -25,21 +25,34 @@ git_bundles = [
   "http://github.com/tsaleh/vim-supertab.git",
   "http://github.com/tsaleh/vim-tcomment.git",
   "http://github.com/vim-ruby/vim-ruby.git",
-  #"http://github.com/vim-bundles/fuzzyfinder.git",
+  "http://github.com/vim-bundles/fuzzyfinder.git",
   "https://github.com/clones/vim-fuzzyfinder.git",
   "http://github.com/borgand/ir_black.git",
   "https://github.com/mattn/gist-vim.git",
   "http://github.com/Shougo/neocomplcache/tree/master",
+###########Python
+  "https://github.com/kevinw/pyflakes-vim.git",
+  
+  #ack
+  "https://github.com/mileszs/ack.vim",
+  #C/C++
+  "https://github.com/vim-scripts/OmniCppComplete.git"
+
 ]
 
 vim_org_scripts = [
+  ["a.vim","31","plugin"],
+  ["pythoncomplete","","plugin"],
   ["IndexedSearch", "7062",  "plugin"],
   ["jquery",        "12107", "syntax"],
   #["bufexplorer",   "12904", "zip"],
   ["minibufexpl",   "3640",   "plugin"],
   ["taglist",       "7701",  "zip"],
   ["vcscommand",    "12743", "zip"],
-  ["l9", "13948", "zip"]
+  ["l9", "13948", "zip"],
+  #["omnicppcomplete","1520","zip"],
+  #["vim-fuzzyfinder"  "4.2.2", "zip"],
+  ["autoclose.vim"   , "1.2" , "plugin"]
 ]
 
 require 'fileutils'

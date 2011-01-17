@@ -16,11 +16,12 @@ export ZSH_THEME="candy"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(command-not-found dirpersist gem git github pip rails ruby ssh-agent vagrant vi-mode)
+plugins=(command-not-found gem git github pip rails ruby ssh-agent vagrant vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs..
 source ${HOME}/.common_shell_config
 setopt autopushd
-
+bindkey '^R' history-incremental-search-backward 
+bindkey -e
